@@ -51,7 +51,11 @@ pip install python-csv
 pip install numpy
 pip install opencv-python
 ```
- 
+Finally, just run the following command:
+```
+python interface.py
+```
+
 ## MacOS
 ------
 
