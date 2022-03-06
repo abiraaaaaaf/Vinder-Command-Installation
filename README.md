@@ -1,14 +1,14 @@
 # Vinder Command Installation
  
  
- ## Install Anaconda
+ ## Install Anaconda 
  
- Step 1: Check if anaconda is installed already:
+ Check if anaconda is installed already:
  
  ```
-conda --version
+$ conda --version
 ```
-If anaconda is installed, this command will print the conda version, so skip to Step2. Otherwise, do the following commands.
+If anaconda is installed, this command will print the conda version, so skip to installing python. Otherwise, do the following commands.
 
  ```
  sudo apt-get update
@@ -22,4 +22,41 @@ Then, activate and test the installation:
 source ~/.bashrc
 conda info
  ```
+
+ ## Install Python
+ 
+ To see version of Python3, open a command prompt and run:
+ 
+```
+python3 --version
+```
+You can easily install Python 3.7 with the following commands:
+```
+sudo apt-get update
+sudo apt-get install python3.7
+```
+To see if pip is installed, open a command prompt and run:
+```
+command -v pip
+```
+If pip is not installed, download the script from https://bootstrap.pypa.io/get-pip.py:
+```
+python get-pip.py
+```
+Now you can easily install the following libraries using pip:
+```
+pip install PyQt5
+pip install python-csv
+pip install numpy
+pip install opencv-python
+```
+
+
+
+
+
+
+
+
+
 
