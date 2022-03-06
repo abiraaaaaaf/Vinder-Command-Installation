@@ -1,6 +1,7 @@
 # Vinder Command Installation
  
- 
+ ## Linux
+ ------
  ## Install Anaconda 
  
  Check if anaconda is installed already:
@@ -50,7 +51,9 @@ pip install python-csv
 pip install numpy
 pip install opencv-python
 ```
-
+ 
+## MacOS
+------
 
 
 
