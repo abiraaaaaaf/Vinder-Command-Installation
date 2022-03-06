@@ -55,6 +55,15 @@ pip install opencv-python
 ## MacOS
 ------
 
+You can go to https://www.anaconda.com/downloads to download Anaconda. Then scroll down a little to the latest version for MacOS.
+Then, go to your terminal and type the following command to see if python is installed and see its version:
+```
+python
+```
+If you have Python 3.7, you’ll run:
+```
+bash ~/Downloads/Anaconda3-2019.03-MacOSX-x86_64.sh
+```
 
 
 
