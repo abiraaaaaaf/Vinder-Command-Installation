@@ -26,10 +26,10 @@ conda info
 
  ## Install Python
  
- To see version of Python3, open a command prompt and run:
+ To see version of Python, open a command prompt and run:
  
 ```
-python3 --version
+python --version
 ```
 You can easily install Python 3.7 with the following commands:
 ```
@@ -59,17 +59,38 @@ python interface.py
 ## MacOS
 ------
 
-You can go to https://www.anaconda.com/downloads to download Anaconda. Go to the Anaconda Website and choose a Python 3.x graphical installer. You can scroll down a little to the latest version for MacOS. Then, go to your terminal and type the following command to see if python is installed and see its version:
+ ## Install Anaconda 
+ 
+ Check if anaconda is installed already:
+ 
+ ```
+$ conda --version
+```
+If anaconda is installed, this command will print the conda version, so skip to installing python. Otherwise, go to https://www.anaconda.com/downloads to download Anaconda. Go to the Anaconda Website and choose a Python 3.x graphical installer. You can scroll down a little to the latest version for MacOS. 
+
+ ## Install Python
+
+Then, go to your terminal and type the following command to see if python is installed and see its version:
 ```
 python --version
 ```
-If you have Python 3.7, you’ll run:
+If you have Python 3.7, you’ll run the following (you can change the name of the file based on your bash anaconda file):
 ```
 bash ~/Downloads/Anaconda3-2019.03-MacOSX-x86_64.sh
 ```
-If you don't have python, download download an installer package from the Python website here: https://www.python.org/downloads/
+If you don't have python, download the latest installer package from the Python website here: https://www.python.org/downloads/
 
 Once the download is complete, double-click the package to start installing Python. If you’re using Apple M1 Mac, you need to install Rosetta. Rosetta enables Intel-based features to run on Apple silicon Macs. When the installation completes, it will open up the Python folder.
+
+Installing Rosetta: 
+
+If you have a Mac with Apple silicon, you are asked to install Rosetta the first time you open an app built for an Intel-based Mac. Click Install, then enter your user name and password to allow installation to proceed. 
+
+Another option to install Rosetta is by copying and pasting the following command into the command line: 
+
+```
+/usr/sbin/softwareupdate –install-rosetta –agree-to-license
+```
 
 For installing pip, run the following command:
 ```
